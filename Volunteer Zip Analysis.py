@@ -6,7 +6,7 @@ import os
 
 # Reads ‘volunteers.csv’ and saves it as a data frame with a variable name of your choice.
 
-path = r"C:\\Users\\alice.mester\\OneDrive - G1S - Strategic Organizing Center\\Documents\\Python\\rePower"
+path = r"###" #Enter your path here
 os.chdir(path)
 
 Volunteers = pd.read_csv('volunteer.csv')
@@ -33,4 +33,5 @@ ZipCounts.to_csv('zip5_counts.csv')
 #Bonus: Have your script perform one other PANDAS operation of your choice (e.g. rearrange something, calculate something), and add comments to explain what you did. 
 
 UniqueZips = len(ZipCounts) #Count unique zip codes
+
 print('Number of Unique Zip Codes:',UniqueZips) #Reports unique zip codes
